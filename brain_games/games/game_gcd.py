@@ -1,6 +1,7 @@
 import prompt
 from random import randint
 
+
 def game_rules():
     print('Find the greatest common divisor of given numbers.')
 

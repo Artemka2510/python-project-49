@@ -3,7 +3,7 @@ from random import randint
 
 
 def game_rules():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('Answer "yes" if the number is even. Otherwise answer "no".')
 
 
 def get_answer():
@@ -11,7 +11,7 @@ def get_answer():
 
 
 def ask_question():
-    num = randint(0, 100)
+    num = randint(1, 100)
     print('Question:', num)
     return num
 
